@@ -1,0 +1,21 @@
+# Ignore compiled binaries
+*.o
+*.out
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore environment specific files
+venv/
+.env
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore package files
+node_modules/
